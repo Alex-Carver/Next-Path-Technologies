@@ -38,7 +38,9 @@ hr, .hr2{
 }
 h1, h2{
   color: #4c4c4e!important;
+
 }
+
 /*-------End Of Element Style----------*/
 
 
@@ -66,6 +68,12 @@ h1, h2{
 }
 
 /*------------Nav Styles---------------*/
+
+img.npBrand{
+  height: 120px;
+  width: 160px;
+  margin-top: -22px;
+}
 
 nav, .navbar-default .navbar-collapse{
   background:#fff;
