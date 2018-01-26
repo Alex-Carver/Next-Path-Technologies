@@ -41,6 +41,11 @@ h1, h2{
 
 }
 
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+
 /*-------End Of Element Style----------*/
 
 
@@ -458,3 +463,300 @@ ul, .service-items{
 }
 
 }
+
+
+
+
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+
+.smiling-woman{
+    width: 20px;
+    height: 200px;
+  }
+}
+
+
+
+
+
+/*--------About Page Styling Section--------------*/
+
+    
+#about header {
+    height: 600px;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(../img/aboutHeader.png);
+    background-attachment: initial;
+}
+
+
+    #about .jumbotron, .container-fluid .jumbotron {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -40px;
+    margin-top: -20px;
+    width: 900px;
+
+}
+
+#about .jumbotron p {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+    padding: 10px;
+}
+    #about h1{
+        font-weight: 600;
+        font-family:sans-serif;
+        font-size: 75px;
+        color: white;
+        margin:0;
+        margin-left:0px;
+    }
+    #about header {
+        position: relative;
+    }
+    
+    #about .overlay:before {
+        content:"";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        left: 0;
+        border-bottom: 20px solid rgba(255, 255, 255, 1);
+        border-right: 20px solid transparent;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #about .overlay:after {
+        content:"";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        right: 0;
+        border-bottom: 20px solid rgba(255, 255, 255, 1);
+        border-left: 20px solid transparent;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #about hr {
+  height: 4px;
+  margin-left: 0px;
+  margin-bottom:-3px;
+  border-top: 4px solid #fff;
+  width: 70%;
+}
+
+#about .offer-box{
+  height: 200px;
+  width:100%;
+  text-align: center;
+  background:#eee;
+}
+
+
+/*------Team Member Page Styles -------*/
+#about #contact {
+    background: #f2f2f2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 1200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/theTeam.png);
+    background-attachment: fixed;
+}
+
+#about h1.contact-heading {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 75px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+#about hr.hr-primary-contact{
+  margin: 0;
+  height: 4px;
+  border-top: 1px solid #fff;
+  width: 100%;
+}
+
+
+
+
+/*---------Team Cards Styling-----------*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+figure{
+  margin-top: 
+}
+
+
+
+
+figure.member{
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 60px 5%;
+  min-width: 380px;
+  max-width: 480px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+
+figure.member * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.member .image {
+  width: 50%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+figure.member .image img {
+    position: relative;
+    display: block;
+    left: -10%;
+    z-index: 1;
+    -webkit-transform: skew(15deg);
+    transform: skew(15deg);
+    width: 400px;
+    height: 400px;
+}
+figure.member:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: skewX(-17deg);
+  transform: skewX(-17deg);
+  -webkit-box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+}
+figure.member figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 50%;
+}
+figure.member figcaption h2,
+figure.member figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.member figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.member figcaption h2 span {
+  font-weight: 800;
+}
+figure.member figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.member figcaption .icons {
+  width: 100%;
+  text-align: right;
+}
+figure.member figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+  opacity: 0;
+}
+figure.member figcaption a {
+  opacity: 0.3;
+}
+figure.member figcaption a:hover {
+  opacity: 0.8;
+}
+figure.member .position {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 15px 30px;
+    font-size: 0.9em;
+    opacity: 1;
+    font-style: italic;
+    color: #ffffff;
+    background: #333;
+}
+figure.member .blue .position {
+  background: #20638f;
+}
+figure.member .red .position {
+  background: #962d22;
+}
+figure.member .yellow .position {
+  background: #bf6516;
+}
+figure.member :hover figcaption,
+figure.member.hover figcaption {
+  bottom: 40px;
+}
+figure.member:hover .icons i,
+figure.member.hover .icons i {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.member:hover:before,
+figure.member.hover:before {
+  -webkit-animation: shadow 0.6s ease-in-out;
+  animation: shadow 0.6s ease-in-out;
+}
+@-webkit-keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+
+
